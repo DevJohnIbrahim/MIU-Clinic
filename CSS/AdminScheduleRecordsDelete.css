@@ -1,0 +1,51 @@
+#table{
+    position: absolute;
+    top:1%;
+    right: 68%;
+    text-align:center
+}
+#table2{
+    position: absolute;
+    top:1%;
+    right: 51%;
+    text-align:center
+}
+#table3{
+    position: absolute;
+    top:1%;
+    right: 34%;
+    text-align:center
+}
+#table4{
+    position: absolute;
+    top:1%;
+    right: 17%;
+    text-align:center
+}
+#table5{
+    position: absolute;
+    top:1%;
+    right: 0%;
+    text-align:center
+}
+button{
+	border-radius:5px;
+
+	font-size:15px;
+	text-align:center;
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+button:hover{
+	background-color:blueviolet;
+}
+#btn{
+     position: absolute;
+    bottom: 5%;
+    left: 2%;
+	font-size:25px;   
+}

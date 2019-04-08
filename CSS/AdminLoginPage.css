@@ -1,0 +1,57 @@
+
+
+.login1 #user11,#txt11{
+	position: static;
+	padding: 2px 10px;
+	margin-bottom:20px;
+	border-radius:5px;
+	margin-right:5px;
+}
+#user11{
+	margin-left:42%;
+	font-size:15pt;
+	background-color:aqua;
+}
+.login1 #pass22,#txt22{
+	position: static;
+	padding: 2px 10px; 
+	overflow: hidden;
+    margin-bottom:20px;
+	margin-right:11px;
+	border-radius:5px;
+}
+.login1 #txt22{
+    margin-left:20px;
+}
+
+#pass22{
+	margin-left:42%;
+	font-size:15pt;
+	background-color:aqua;
+}
+.login1 #login2{
+	position: static;
+	padding: 5px 10px; 
+    margin-top:10px;
+    margin-bottom:30px;
+	margin-left:590px;
+	background-color:aqua;
+	border-radius:8px;
+	cursor: pointer;
+    text-align: center;
+	box-shadow: 0 2px gray;
+	font-size:15px;
+}
+.login1 #head1{
+	
+	position: static;
+	padding: 2px 20px;
+    margin-top:15%;
+    margin-bottom:30px;
+	margin-left:590px;	
+	margin-right:520px;
+    overflow:hidden;
+    text-align: center;
+	background-color:aqua;
+	border-radius:5px;
+}

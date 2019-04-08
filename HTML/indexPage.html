@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Miu Clinic</title>
+<script type="text/javascript" src="../JavaScript/indexPage.js"></script> 
+
+    <link rel="stylesheet" type="text/css" href="../CSS/backgroundImage1.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/indexPage.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+
+</head>
+
+<body>
+
+    
+<header>
+    <img src="../images/3.png" id="x1" alt="logo" width="100px" height="100px"/>
+     <div id='cssmenu'>
+<ul>
+  <li class='active'><a href="indexPage.html">Home</a></li>
+   <li ><a href="ProfilePage.php">Reserve</a></li>
+   <li ><a href="accinfo.php">Account Information</a></li>
+   <li><a href="newsPage.html">News</a></li>
+   <li><a href="contactUsPage.html">Contact us</a></li>
+   <li><a href="aboutUsPage.html">About us</a></li>
+</ul>
+    </div>
+</header>
+ <br>
+    
+    
+<div class="btns">
+<button class="btn1" type="button" id="loginbtn">Login</button>
+<button class="btn2" type="button" id="signupbtn">Sign Up</button>
+</div>
+
+
+<br>
+
+      <div class="w3-content w3-section" id ="zx" style="max-width:70%">
+  <img class="mySlides" src="../images/4.jpg" style="width:950px" height="380px">
+  <img class="mySlides" src="../images/dental-care.jpg" style="width:950px"height="380px">
+  <img class="mySlides" src="../images/dental.png" style="width:950px"height="380px">
+</div>
+    <h2>What we offer</h2>
+    <p id="art1">Our practice offers a comprehensive selection of innovative orthodontic procedures for children, teens, and adults. We take special care to provide you and your child with personalized, compassionate treatment that can deliver exceptional results. We believe that your smile is part of what makes you unique, and we want to maintain your individuality while correcting orthodontic problems quickly, comfortably, and effectively.
+    </p>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<main>
+
+</main>
+
+<footer>
+ <p class="copyright">© Copyrights Mostafa Ahmed, Mina Wasfy and John Hani 2017</p>
+</footer>
+
+</body>
+</html>

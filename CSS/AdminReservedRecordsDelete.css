@@ -1,0 +1,27 @@
+#table{
+    position: absolute;
+    right: 24%;
+    text-align:center
+}
+button{
+	border-radius:5px;
+	font-size:15px;   
+	text-align:center;
+	padding: 5px 10px;
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+   
+}
+button:hover{
+	background-color:blueviolet;
+}
+#btn{
+    font-size:25px;  
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+}

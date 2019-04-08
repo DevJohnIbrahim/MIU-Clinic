@@ -1,0 +1,86 @@
+table{
+    margin-top: 20%;
+	border: solid grey;
+	background-color:black;
+    opacity: 0.8;
+color: white;
+	border-radius:8px;
+	width:50%;
+	text-align:center;
+	font-size:25px;
+	position: static;
+	margin-bottom: 1%;
+	margin-left:25%;
+}
+label{
+    border: solid grey;
+	background-color:black;
+    color:white;
+	font-size:18px;
+	border-radius:8px;
+	padding: 9px 9px 9px 9px;
+}
+
+.btns {
+    position: absolute;
+    top:5%;
+	right:10%;
+}
+
+.btn1{
+  display: inline-block;
+  font-family: fantasy;
+  font-size: 20px;
+  
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:lightblue;
+
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom:10px;
+}
+
+.btn1:hover {background-color: blue;}
+
+.btn1:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn2 {
+
+  display: inline-block;
+    font-family: fantasy;
+
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.btn2:hover {background-color: blue;}
+
+.btn2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    background-color: bisque;
+    border-radius: 5px;
+    padding-left:2px;
+    padding-right: 2px;
+}

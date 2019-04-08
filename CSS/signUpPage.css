@@ -1,0 +1,67 @@
+.topnav {
+    margin-top: 5%;
+    font-size: 20px;
+   color:black;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+#myy{
+        width:250px;
+}
+b{
+	background-color:burlywood;
+	border-radius:5px;	
+	padding-left:6px;
+	padding-right:6px;
+	padding-bottom:1px;
+	
+}
+
+#signin1,#sub{
+	position: static;
+	padding: 2px 20px; 
+	font-size:18px;
+	background-color:burlywood;
+	border-radius:8px;
+	cursor: pointer;
+    text-align: center;
+	box-shadow: 0 2px gray;
+}
+#signin1:hover,#sub:hover{
+	background-color: red;
+	color: blue
+}
+#signin1:active,#sub:active{
+	background-color: white;
+	color: green;
+}
+#so,#my{
+	width:50%;
+
+}
+#mytopnav{
+	 display: flex;  
+	 font-size: 20px;
+     color:black;
+}
+input,textarea{
+	position:static;
+	margin-top:8px;
+	border-radius:5px;
+	height:30px;
+}
+#AA12{
+	position:absolute;
+	top:30%;
+	left:27%;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    background-color: bisque;
+    border-radius: 5px;
+    padding-left:2px;
+    padding-right: 2px;
+}
+

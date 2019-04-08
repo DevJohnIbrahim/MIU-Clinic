@@ -1,0 +1,123 @@
+article{
+	border-radius:5px;
+	 font-family: "Times New Roman", Times, serif;
+	 font-size:19px;
+	line-height:29px;   
+    box-shadow: 10px 10px 5px #888888;
+	margin-bottom:20px;
+}
+#art1{
+    font-size: 20px;
+    opacity: 0.7;
+     line-height: 30px;
+    color: black;
+ 
+  
+}
+#art2{
+    font-size: 20px;
+	  opacity: 0.7;
+     line-height: 30px;
+    color: black;
+ 
+}
+h1{
+    color: red;
+text-align: center;
+}
+#art3{
+	 font-size: 20px;
+	  opacity: 0.7;
+     line-height: 30px;
+    color: black;
+}
+body{
+    background-color: gainsboro;
+}
+#x1{ 
+      position: absolute;
+    top:1%;
+}
+#x3{ 
+    width: 150 px;
+  height: 205px;
+    float: left;
+background-color: white;
+    border: solid grey;
+}
+#x4{ 
+    height: 130px;
+    float: left;
+background-color: white;
+    border: solid grey;
+    width:250px;}#x5{height: 130px;
+    float: left;
+background-color: white;
+    border: solid grey;
+    width:250px;
+}
+h3{
+    color: cornflowerblue;
+}
+
+.btns {
+    position: absolute;
+    top:5%;
+    right:9%;
+}
+
+.btn1{
+  display: inline-block;
+  font-family: fantasy;
+  font-size: 20px;
+  
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:lightblue;
+
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom:10px;
+}
+
+.btn1:hover {background-color: blue;}
+
+.btn1:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn2 {
+
+  display: inline-block;
+    font-family: fantasy;
+
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.btn2:hover {background-color: blue;}
+
+.btn2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer{
+    background-color: bisque;
+    border-radius: 5px;
+    padding-left:2px;
+    padding-right: 2px;
+}

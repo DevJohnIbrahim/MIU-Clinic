@@ -1,0 +1,49 @@
+body {
+  text-align:center;
+  margin-top:10%;
+}
+
+main{
+position:absolute;
+	left:38.3%;
+	top:25%;
+	padding: 80px 40px;
+	text-align:center;
+	
+}
+button,#log{
+	border-radius:5px;
+	margin-bottom:40px;
+	font-size:20px;
+	text-align:center;
+	padding: 5px 10px;
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+button:hover,#log:hover{
+	background-color:blueviolet;
+}
+
+#log{
+  position: absolute;
+  bottom:85%;
+  right:10%;
+}
+h1{
+	text-align:center;
+}
+#b4{
+  position:absolute;
+	left:5%; 
+    top:5%;
+}
+#bac{
+    font-size:25px;
+    position: absolute;
+    bottom: 0%;
+    left: 2%;   
+}

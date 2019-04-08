@@ -1,0 +1,30 @@
+body {
+	background-color:aqua;
+	border-style: solid;
+    border-color: red green blue yellow;
+}
+
+main{
+background: url(../images/img123.jpg) no-repeat center center fixed; 
+position:absolute;
+	left:40%;
+	top:30%;
+	padding: 120px 40px;
+	border-radius:45px;
+	text-align:center;
+	
+}
+button{
+	border-radius:5px;
+	margin-bottom:40px;
+	font-size:20px;
+	text-align:center;
+	background-color:aqua;
+	padding: 5px 10px;
+}
+button:hover{
+	background-color:silver;
+}
+h1{
+	text-align:center;
+}
